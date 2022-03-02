@@ -13,18 +13,17 @@ public class HomePage {
 
 	@FindBy(id="logoutLink") private WebElement logoutButton;
 	
-	@FindBy(id="container_users") private WebElement usersModuleLink;
+	@FindBy(id="container_tt") private WebElement Time_track;
 
 	public WebElement getLogoutButton() {
 		return logoutButton;
 	}
-
-	public WebElement getUsersModuleLink() {
-		return usersModuleLink;
+	public WebElement getTime_track() {
+		return Time_track;
 	}
 
 	// Business Logic or Action methods or Behavior
-	public void logout() {
-		logoutButton.click();
-	}
+//	public void logout() {
+//		logoutButton.click();
+	//}
 }
